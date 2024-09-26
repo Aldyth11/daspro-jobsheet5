@@ -40,6 +40,9 @@ public class Kafe14 {}
                 case 'L':
                 totalHarga += 0.4 *totalHarga;
                 break;
+            default: 
+            System.out.println("Pilihan size tidak tersedia");
+            return;
     }
 double diskon = keanggotaan ? 0.1 : 0;
 double nominaBayar = totalHarga - (diskon * totalHarga);
